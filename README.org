@@ -1,0 +1,8 @@
+#+TITLE:     homelab
+#+AUTHOR:    Jeremy Kitchen
+#+EMAIL:     kitchen@kitchen.io
+
+just my homelab stuff. nothing to see here, move along.
+
+* license
+As I have with some other projects, since this is mostly just config and not really "code" so much, I doubt any of it is really licenseable to any meaningful extent. But to make the lawyers happy, I've released this under the WTFPL, see [[LICENSE]] for more info
