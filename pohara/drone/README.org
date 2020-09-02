@@ -1,0 +1,7 @@
+#+TITLE:     Drone
+#+AUTHOR:    Jeremy Kitchen
+#+EMAIL:     kitchen@kitchen.io
+
+This is the config for my drone server. I'm setting this up first because I think if I get drone running I can have it manage the rest of everything just using drone builds, docker-compose, etc. We shall see. Plus it's fun.
+
+Anyways, it seems that drone can only read secrets from environment variables and also docker can't expose secrets directly as environment variables, so you need to do a little dance. Set up a secret, set its value to =ENV_VAR=<the actual secret>=, then use the env-file option to load it. Seems a bit wonky, but there's perhaps a way to do it better using template-driver option? No idea. Going to do it this way to start.
