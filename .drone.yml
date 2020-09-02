@@ -1,8 +1,11 @@
 ---
 kind: pipeline
 type: docker
-name: default
+name: homelab build
 
 steps:
   - name: test
     image: hello-world
+    trigger:
+      event:
+        - push
