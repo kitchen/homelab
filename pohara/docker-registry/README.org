@@ -1,0 +1,12 @@
+#+TITLE:     docker registry
+#+AUTHOR:    Jeremy Kitchen
+#+EMAIL:     kitchen@kitchen.io
+
+This is the docker bits for my docker registry.
+
+Right now it's just using local storage, but I think I would eventually like to have it using s3 or gcp storage backends
+
+* todos
+** TODO s3 or gcp storage backend
+- https://docs.docker.com/registry/configuration/#storage
+- https://docs.docker.com/registry/storage-drivers/
